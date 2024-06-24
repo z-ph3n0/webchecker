@@ -31,7 +31,7 @@ cd webchecker
 
 3. **Exécuter l'Outil** :
 
-Remplacez `example.com` par le site web cible ou l'adresse IP.
+perl main.pl <adresse_du_site>.
 
 ## Contributions
 
