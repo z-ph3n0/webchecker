@@ -1,61 +1,39 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>WebChecker</title>
-</head>
-<body>
+# WebChecker
 
-    <h1>WebChecker</h1>
+WebChecker est un outil de cybersécurité développé en Perl, conçu pour effectuer des vérifications de base sur les applications web et les serveurs. Il analyse les ports ouverts, vérifie les répertoires courants à la recherche de contenu par défaut, et identifie les en-têtes HTTP potentiellement vulnérables.
 
-    <p>WebChecker est un outil de cybersécurité développé en Perl, conçu pour effectuer des vérifications de base sur les applications web et les serveurs. Il analyse les ports ouverts, vérifie les répertoires courants à la recherche de contenu par défaut, et identifie les en-têtes HTTP potentiellement vulnérables.</p>
+## Fonctionnalités
 
-    <h2>Fonctionnalités</h2>
+- **Scan des Ports** : Vérifie les ports TCP ouverts sur la cible.
+- **Vérification des Répertoires** : Contrôle les répertoires courants pour y déceler la présence de contenu par défaut.
+- **Analyse des En-têtes HTTP** : Détecte les en-têtes HTTP qui pourraient indiquer des configurations vulnérables.
 
-    <ul>
-        <li><strong>Scan des Ports</strong> : Vérifie les ports TCP ouverts sur la cible.</li>
-        <li><strong>Vérification des Répertoires</strong> : Contrôle les répertoires courants pour y déceler la présence de contenu par défaut.</li>
-        <li><strong>Analyse des En-têtes HTTP</strong> : Détecte les en-têtes HTTP qui pourraient indiquer des configurations vulnérables.</li>
-    </ul>
+## Installation
 
-    <h2>Installation</h2>
+Assurez-vous d'avoir Perl installé ainsi que le module nécessaire :
 
-    <p>Assurez-vous d'avoir Perl installé ainsi que le module nécessaire :</p>
+1. **Installation de Perl** : Vérifiez que Perl est installé sur votre système.
+   
+2. **Installer le Module Requis** :
+cpan install IO::Socket::INET
 
-    <ol>
-        <li><strong>Installation de Perl</strong> : Vérifiez que Perl est installé sur votre système.</li>
-        <li><strong>Installer le Module Requis</strong> :
-            <pre><code>cpan install IO::Socket::INET</code></pre>
-        </li>
-    </ol>
 
-    <h2>Utilisation</h2>
+## Utilisation
 
-    <ol>
-        <li><strong>Cloner le Dépôt</strong> :
-            <pre><code>git clone https://github.com/votre-utilisateur/WebChecker.git</code></pre>
-        </li>
-        <li><strong>Exécuter l'Outil</strong> :
-            <pre><code>perl security_scanner.pl example.com</code></pre>
-        </li>
-    </ol>
+1. **Cloner le Dépôt** :
+git clone https://github.com/z-ph3n0/WebChecker.git
+cd WebChecker
 
-    <p>Remplacez `example.com` par le site web cible ou l'adresse IP.</p>
 
-    <h2>Contributions</h2>
+2. **Exécuter l'Outil** :
 
-    <p>Les contributions sont les bienvenues ! Voici comment contribuer :</p>
+Remplacez `example.com` par le site web cible ou l'adresse IP.
 
-    <ol>
-        <li>Faites un fork du dépôt et clonez-le localement.</li>
-        <li>Créez une nouvelle branche pour votre fonctionnalité ou correction de bogue.</li>
-        <li>Effectuez vos modifications et testez-les soigneusement.</li>
-        <li>Soumettez une pull request avec une description claire de vos changements.</li>
-    </ol>
+## Contributions
 
-    <h2>Licence</h2>
+Les contributions sont les bienvenues ! Voici comment contribuer :
 
-    <p>Ce projet est sous licence MIT - consultez le fichier <a href="LICENSE">LICENSE</a> pour plus de détails.</p>
-
-</body>
-</html>
+1. Faites un fork du dépôt et clonez-le localement.
+2. Créez une nouvelle branche pour votre fonctionnalité ou correction de bogue.
+3. Effectuez vos modifications et testez-les soigneusement.
+4. Soumettez une pull request avec une description claire de vos changements.
