@@ -21,8 +21,10 @@ cpan install IO::Socket::INET
 ## Utilisation
 
 1. **Cloner le Dépôt** :
-2. 
+   
 git clone https://github.com/z-ph3n0/WebChecker.git
+
+2. **Se connecter au Dossier** :
 
 cd WebChecker
 
