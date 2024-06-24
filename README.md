@@ -45,7 +45,3 @@
         <li>Effectuez vos modifications et testez-les soigneusement.</li>
         <li>Soumettez une pull request avec une description claire de vos changements.</li>
     </ol>
-
-
-</body>
-</html>
