@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>WebChecker</title>
+</head>
+<body>
 
     <h1>WebChecker</h1>
 
@@ -26,7 +33,7 @@
 
     <ol>
         <li><strong>Cloner le Dépôt</strong> :
-            <pre><code>git clone https://github.com/z-ph3n0/webchecker.git</code></pre>
+            <pre><code>git clone https://github.com/votre-utilisateur/WebChecker.git</code></pre>
         </li>
         <li><strong>Exécuter l'Outil</strong> :
             <pre><code>perl security_scanner.pl example.com</code></pre>
@@ -45,3 +52,10 @@
         <li>Effectuez vos modifications et testez-les soigneusement.</li>
         <li>Soumettez une pull request avec une description claire de vos changements.</li>
     </ol>
+
+    <h2>Licence</h2>
+
+    <p>Ce projet est sous licence MIT - consultez le fichier <a href="LICENSE">LICENSE</a> pour plus de détails.</p>
+
+</body>
+</html>
