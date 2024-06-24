@@ -22,10 +22,11 @@ cpan install IO::Socket::INET
 
 1. **Cloner le Dépôt** :
 git clone https://github.com/z-ph3n0/WebChecker.git
+
 cd WebChecker
 
 
-2. **Exécuter l'Outil** :
+3. **Exécuter l'Outil** :
 
 Remplacez `example.com` par le site web cible ou l'adresse IP.
 
